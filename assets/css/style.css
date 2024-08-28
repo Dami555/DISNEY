@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    background-color: black;
+    color: #ffffff;
+}
+.nav {
+    text-align: end;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra-navegacion {
+    display: flex;
+    list-style: none;
+    margin: 0%;   
+    padding: 0%;
+    background-color: #167177;
+    line-height: 20px;
+}
+
+.item {
+    display: inline-block;
+    padding: 0 20px;
+    padding: 20px;
+}
+
+.name {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.name:hover {
+    color: #b0dbff;
+    font-style:oblique;
+    border-left: 5px solid #ffffff;
+}
